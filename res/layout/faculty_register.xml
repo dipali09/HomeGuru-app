@@ -1,0 +1,70 @@
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:visibility="visible">
+
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Register"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="50dp"
+        android:textStyle="italic" />
+
+    <android.widget.EditText
+        android:id="@+id/rt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name" />
+
+    <android.widget.EditText
+        android:id="@+id/rt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gmail" />
+
+    <android.widget.EditText
+        android:id="@+id/rt4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Specialization" />
+
+    <android.widget.EditText
+        android:id="@+id/rt5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Qualification" />
+
+    <android.widget.EditText
+        android:id="@+id/rt6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password" />
+
+    <android.widget.EditText
+        android:id="@+id/rt7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Contact" />
+    <android.widget.EditText
+        android:id="@+id/rt8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Address" />
+
+    <android.widget.Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <android.widget.Button
+        android:id="@+id/goback1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO BACK" />
+
+
+</android.support.v7.widget.LinearLayoutCompat>

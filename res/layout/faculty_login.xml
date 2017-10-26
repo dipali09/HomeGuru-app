@@ -1,0 +1,42 @@
+
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Faculty Login"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter email Id"
+        android:id="@+id/et1"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/et2"
+        />
+<android.widget.Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/login"
+    android:text="Login"
+    />
+    <android.widget.Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/goback"
+        android:text="GO BACK"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>

@@ -1,0 +1,45 @@
+
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Login"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/st1"
+        android:inputType="textEmailAddress"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/st2"
+        android:inputType="textPassword"
+
+        />
+<android.widget.Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/login_stud"
+    android:text="Login"
+    />
+    <android.widget.Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/goback1"
+        android:text="GO BACK"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>

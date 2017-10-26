@@ -1,0 +1,49 @@
+
+<android.support.v7.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+    <android.widget.TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Register"
+        android:textSize="50dp"
+        android:textColor="@color/colorAccent"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Full Name"
+        android:id="@+id/sr2"
+        />
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gmail"
+        android:id="@+id/sr3"
+        />
+
+    <android.widget.EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/sr4"
+        />
+<android.widget.Button
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/submit1"
+    android:text="Submit"
+    />
+    <android.widget.Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/goback2"
+        android:text="GO BACK"
+        />
+
+</android.support.v7.widget.LinearLayoutCompat>
